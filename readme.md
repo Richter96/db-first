@@ -20,22 +20,22 @@
 
 ## Table columns: 
 
-- id | INT 
-- marca |VARCHART(200)
-- modello |VARCHART(200)
-- versione |VARCHART(200)
-- carrozzeria |VARCHART(100)
-- carburante |VARCHART(100)
-- chilometraggio |DECIMAL(8, 2)
-- potenza |FLOAT
-- cambio |VARCHART(50)
-- emissioni | VARCHART(50)
-- numero_posti |TIKYINT
-- numero_porte |TINYINT
-- venditore |VARCHART(100)
-- condizioni_veicolo |VARCHART(100)
-- colore_esterni |VARCHART(100)
-- colore_interni |VARCHART(100)
-- prezzo |DECIMAL(9, 2)
-- anno |YEAR
+- id | INT, AI UNIQUE NOTNULL
+- marca |VARCHART(200) NOTNULL INDEX
+- modello |VARCHART(200) NOTNULL INDEX
+- versione |VARCHART(200), NULLABLE INDEX
+- carrozzeria |VARCHART(100), NULLABLE INDEX
+- carburante |VARCHART(100), NOTNULL INDEX
+- chilometraggio |DECIMAL(8, 2), NULLABLE INDEX
+- potenza |FLOAT, NULLABLE INDEX
+- cambio |VARCHART(50), NOTNULL INDEX
+- emissioni | VARCHART(50), NULLABLE INDEX
+- numero_posti |TIKYINT, NULLABLE INDEX
+- numero_porte |TINYINT, NULLABLE INDEX
+- venditore |VARCHART(100), NOTNULL INDEX
+- condizioni_veicolo |VARCHART(100), NULLABLE INDEX
+- colore_esterni |VARCHART(100), NULLABLE INDEX
+- colore_interni |VARCHART(100), NULLABLE INDEX
+- prezzo |DECIMAL(9, 2), NOTNULL INDEX
+- anno |YEAR, NULLABLE INDEX
 - descrizione |TEXT, NULLABLE
