@@ -39,8 +39,3 @@
 - prezzo |DECIMAL(9, 2), NOTNULL INDEX
 - anno |YEAR, NULLABLE INDEX
 - descrizione |TEXT, NULLABLE
-
-|               | id           | Second Header | First Header  | Second Header | First Header  | Second Header | First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
