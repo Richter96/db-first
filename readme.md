@@ -20,22 +20,22 @@
 
 ## Table columns: 
 
-- id 
-- marca
-- modello
-- versione
-- carrozzeria
-- carburante
-- chilometraggio
-- potenza
-- cambio
-- emissioni
-- numero_posti
-- numero_porte
-- venditore
-- condizioni_veicolo
-- colore_esterni
-- colore_interni
-- prezzo
-- anno
--
+- id | INT 
+- marca |VARCHART(200)
+- modello |VARCHART(200)
+- versione |VARCHART(200)
+- carrozzeria |VARCHART(100)
+- carburante |VARCHART(100)
+- chilometraggio |DECIMAL(8, 2)
+- potenza |FLOAT
+- cambio |VARCHART(50)
+- emissioni | VARCHART(50)
+- numero_posti |TIKYINT
+- numero_porte |TINYINT
+- venditore |VARCHART(100)
+- condizioni_veicolo |VARCHART(100)
+- colore_esterni |VARCHART(100)
+- colore_interni |VARCHART(100)
+- prezzo |DECIMAL(9, 2)
+- anno |YEAR
+- descrizione |TEXT, NULLABLE
